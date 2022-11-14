@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web</title>
+    <link rel="stylesheet" href="/resp.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+   <nav>
+    <ul class="menu">
+    <li class="logo"><a href="#">FollowKoang.dev</a></li>
+    <li class="item"><a href="#">Home</a></li>
+    <li class="item"><a href="#">About</a></li>
+    <li class="item"><a href="#">Services</a></li>
+    <li class="item button"><a href="#">Login</a></li>
+    <li class="item button secondary"><a href="#">Sign Up</a></li>
+    <li class="toggle"><a href="#"><span class="bars"></span></a></li>
+</ul>
+</nav>
+
+   <main id="main">
+    <h2 class="h2">Welcome to my web page</h2>
+    <p class="par">Lorem ipsum dolor sit amet.</p>
+    <p class="par">Ex Lorem ipsum dolor sit amet. vitae id vero autem.</p>
+    <p class="par">Laudantium Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis voluptatum quisquam debitis, deleniti maxime eos velit, deserunt illum hic minima a voluptate perferendis omnis distinctio et suscipit commodi odit natus! modi voluptas consectetur repellendus!</p>
+    <p class="par">Assumenda sequi obcaecati doloribus qui?</p>
+    <p class="par">Voluptatum molestias quos sequi minus.</p> 
+      <a href="#" style="position: fixled; bottom:0;">https://youtube.com/channel/UCBoSmyo-G9pdKJY96dFopg</a>
+   </main>
+  <img src="/IMG-1263.jpg" alt="">
+
+
+
+
+
+   <script>
+
+    $(function() {
+
+        $(".togle").on("click", function() {
+
+        if(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+        }
+        
+      else{
+        $(".item").addClass("active");
+      }
+
+      })
+        
+    });
+   
+
+  </script>
+</body>
+</html>
