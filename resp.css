@@ -209,8 +209,50 @@ a:hover{
 }
 
 img {
-    width: 250px;
+    width: 50;
     height: 520px;
-    margin: 10px 0px 40px 40px;
+    margin: 10px 40px 40px 40px;
+    display: inline-block;
     
+}
+
+.main {
+    background: orange;
+    width: 50%;
+}
+ 
+h3 {
+    color: aqua;
+    position: relative;
+    justify-items: center;
+}
+
+.con {
+    font: 1.5rem bold arial;
+    color: #fff;
+    margin: 10px 20px;
+    flex: none;
+}
+
+#footer {
+    font: 1.5rem'Courier New', Courier, monospace;
+   margin: 20px 0 50px 20px;
+    
+}
+
+input , textarea , button{
+ background: rgb(20, 195, 201);
+ font-weight: 100;
+ margin-bottom:px;
+}
+
+button{
+    width: 75px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background: #fff;
+    color: aqua;
 }
