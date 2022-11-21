@@ -10,15 +10,14 @@
 
 /** 1 - Learn the syntax  - Vocabulary */
 
-/** Variables and Data types */
+/** Variables and Data types - What */
 
 
 // Type        Declaration          Assign                   Value
 
 var             name                   =                     "Moha";
 let             age                    =                      2234 ;
-const           name                   =                     "Constant";
-
+const           c_name                 =                     "Constant";
 
 
 /// Types of the value => Data types   
@@ -32,8 +31,8 @@ let _tf = true ;                    /// Boolean ( true , false )
 let _arr = [];                      /// Object of type array
 let _obj = {};                      /// Object of type object
 
-let _null = null ;                  /// BNull
-let _undefined = undefined ;        /// undefined
+let _null = null ;                  /// Null
+let _undefined ;        /// undefined
 
 
 /** Skip them for now */
@@ -90,12 +89,14 @@ let arr = [];
         arr[2]; // The third element - true
         arr[3]; // The fourth element - null
         arr[4]; // The fifth element - undefined
-    /// Updtae 7 Set elmenet
+    /// Updtae & Set elmenet
         arr[0] = "Marcus";          /// Updated "Moha" => "Marcu"
         arr[1] = "Me";              /// Updated 555=> "Me"
         arr[2] = null;              /// Updated ture => null
         arr[3] = 111;               /// Updated null => 111
         arr[4] = "A new value";     /// A new value
+        /// ["Marcus", "Me", null, null, "A new value" ]
+        arr[10] = "Atr" , 14123;
 
 
 
@@ -118,7 +119,8 @@ let obj = {};
         "age": 123,
         arr  : [],
         obj1 : {},
-        func : function(){}
+        func : function(){},
+        toVar: ["Ma", 891823]
     }
 
     // Get element
@@ -130,18 +132,19 @@ let obj = {};
         obj.newElement = "I am new!";
 
 
-/** Function */
+/** Function - What to do ? */
     /// Defination
         /// Do not return anythong.
-            function myFun()
+            function myFun(  param1, param2 )
             {
                 ///  Do something...
             }
         /// Return a string
             function myFun()
             {
-                ///  Do something...
-                return "A string value"
+                ///  Do something... 
+                let perem ="A string value";
+                return perem;
             }
 
         /// Return a number
@@ -167,7 +170,7 @@ let obj = {};
             }
 
     /// Execution
-        myFun();
+        myFun(343, 676);
 
 
 /** 2 - With whom to talk - Browser , Server */
@@ -178,3 +181,7 @@ let obj = {};
     /// Make an Image bigger ?
     /// Change the styling ?
     /// Send request to the server ?
+console.log("LOG");
+document.createElement();
+
+
