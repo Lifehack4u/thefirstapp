@@ -1,16 +1,9 @@
 
-/// Variables
-var name = {};
-let arr = [];
-let bool = true;
-let boolf = false;
-let age = 24;
-const year = '2022';
+/** Variables and Data types */
 
-/// Functions
 
-function myf1(){
+// Type          name of variable        Assign                 Value
 
-}
-myf1();
-//// Statements
+var             name                   =                     "Moha";
+let             age                   =                       2234 ;
+const           name                   =                     "Constant";
