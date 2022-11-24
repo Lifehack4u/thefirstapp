@@ -181,7 +181,59 @@ let obj = {};
     /// Make an Image bigger ?
     /// Change the styling ?
     /// Send request to the server ?
-console.log("LOG");
-document.createElement();
+
+
+/** LOOPS */
+
+for ( let i = 0; i < 10; i++ ) {
+    console.log(" i : ", i);
+}
+
+let arr = [1,3,4,5,6];
+arr.forEach( function( el ){
+    console.log(" el : ", el );
+})
+
+
+let c = 10;
+while( c > 1 ) {
+    console.log(" c : ", c);
+
+    c--;
+}
+
+/** Logic */
+
+let cond = 4;
+
+if( cond === 3 ) {
+    console.log("The status is : notfound ")
+} else if( cond === 4 ){
+    console.log("The status is : found ")
+    
+}else if( cond === 1) {
+    console.log("Error")
+}else {
+
+}
+
+switch( cond ) {
+    case 1 :
+        console.log(1);
+        break;
+    case 2 : 
+        console.log(2)
+        break;
+    default : 
+        console.log("default");
+        break;
+
+}
+
+
+/** Tools */
+/// Bootstrap 
+/// Developer tools
+/// Figma
 
 

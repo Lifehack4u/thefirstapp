@@ -1,0 +1,81 @@
+/** all elements */
+*{
+    margin: 5px;
+}
+.d-flex {
+    display: flex;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.f-content-center {
+    justify-content: center;
+}
+
+.f-content-start {
+    justify-content: start;
+}
+
+.f-content-between {
+    justify-content: space-between;
+}
+
+.item-list {
+    list-style: none;
+    margin-right: 15px;
+}
+.item-list a {
+    text-decoration: none;
+}
+
+
+/** INPUTS */
+input, textarea {
+    border-style:none ;
+    border: 1px #bbb8b8 solid;
+}
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+/** Default width */
+.col-1 {
+    max-width: 10%;
+}
+.col-2 {
+    max-width: 20%;
+}
+.col-3 {
+    max-width: 30%;
+}
+.col-4 {
+    max-width: 40%;
+}
+.col-5 {
+    max-width: 50%;
+}
+.col-6 {
+    max-width: 60%;
+}
+.col-7 {
+    max-width: 70%;
+}
+.col-8 {
+    max-width: 80%;
+}
+.col-9 {
+    max-width: 90%;
+}
+.col-10 {
+    max-width: 100%;
+}
