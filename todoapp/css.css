@@ -1,0 +1,30 @@
+/* div {
+    border: 1px #e2eee2 solid;
+} */
+
+.row {
+    border: 1px #000 dashed;
+    margin: 3px;
+}
+
+.col {
+    border: 1px red solid;
+    margin: 5px;
+}
+
+#toprow {
+    height: 50px;
+}
+
+#secondrow {
+    height: 500px;
+}
+
+#formdiv {
+    width: 300px;
+    height: 400px;
+}
+
+.form-control {
+    margin: 1px;
+}
