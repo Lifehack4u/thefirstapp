@@ -1,10 +1,10 @@
 // part 1 each part is closed under one multiline comments
-/*
+
 console.log('I like pizza!');
 console.log("It's really good!");
 
 
-window.alert("I reallly Love Pizza") */
+window.alert("I reallly Love Pizza") 
 
 // this is a comment
 
@@ -26,7 +26,7 @@ window.alert("I reallly Love Pizza") */
    // 2. Assignment (= assignment operator)
 
 */
-/*
+
  
    let firstName = "Koang"; //strings
    let  age = 24; // numbers
@@ -112,7 +112,7 @@ document.getElementById("myButton").onclick = function(){
 
 // Type conversion = change the datatype of a value to another 
 //                        (stringd, Number, booleans)
-/*
+
 let age = window.prompt("How old are you?");
 console.log(typeof age)
 age = Number(age);
@@ -121,7 +121,7 @@ age += 1;
 
 console.log("Happy Birthday! You are", age, "year old");
 */
-/*
+
 let x;
 let y;
 let z;
@@ -133,9 +133,10 @@ z = Boolean("pizza")
 console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
-*/
+
 
 // const = a variable that can't be changed
+/*
 
 const PI = 3.14159;
 let radius;
@@ -147,4 +148,38 @@ radius = Number(radius);
 //pi = 420.69;
 circumference = 2 * Pi * radius;
 
-console.log(" the circumference is:", circumference);
+console.log(" the circumference is:", circumference); */
+
+
+/*  loop */
+for ( let i = 0; i < 10; i++) {
+   console.log(" i  : ", i)
+}
+
+let arr =[]
+arr.forEach( function( el ){
+   console.log("el : ", el);
+})
+
+let c = 10;
+while(c > 1) {
+   console.log(" c :", c);
+
+   c--;
+}
+
+/*  Logic */
+
+let cond = 4;
+if ( cond === 3 ) {
+   console.log("the status is : notfound")
+} else if ( cond ==== 4 ) {
+   console.log("the status is : found")
+}  else if ( cond === 1 ) {
+   console.log("the status is : found")
+}
+
+
+switch( cond ) {
+   cas 1 :
+}
