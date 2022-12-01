@@ -1,0 +1,122 @@
+/*div{
+    border: 1px;
+    color: rgb(143, 182, 216) solid;
+}*/
+
+.row{
+    
+    margin: 3px;
+}
+
+.col{
+    
+    margin: 5px;
+}
+
+#top-row{
+    height: 50px;
+    border: 1px #000 solid;
+    background-color: #2F1E1E;
+
+}
+
+#second-row{
+    min-height:500px;
+}
+ 
+#formdiv{
+    width: 300px;
+    height: 400px;
+    padding-top: 200px;
+
+}
+
+#validationTextareaName{
+    width: 300px;
+    height: 48px;
+    margin-bottom: 38px;
+
+}
+
+.form-label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+
+#validationTextareaDescription{
+    width: 300px;
+    height: 132px;
+}
+
+.link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-right: 60px;
+    color: #FFFFFF;
+
+}
+
+#btnSubmit{
+    width: 57px;
+    height: 48px;
+    background-color:  #5E5BFF;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.vl {
+    border-left: 1px solid #000000;
+    height: 500px;
+}
+
+.GreyRectangles{
+    width: 543px;
+    height: 79px;
+    background: #D9D9D9;
+    margin-bottom: 10px;
+}
+
+#RectangleContainer{
+    justify-content: center;
+    align-items: center;
+}
+
+#descr{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+#name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+#imageX{
+    position: absolute;
+    width: 26px;
+    height: 28px;
+    padding-left: 9px;
+    padding-top: 9px;
+}
+
+
+
+
+
+
+
+
