@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: aqua;
+    font: 2rem Arial bold;
+}
+
+p{
+    font: 1.5rem italic;
+    color: #c77614;
+}
+#count{
+    font-size: large;
+    padding: 10px;
+}
+#button {
+
+    color: #131012;
+    width: 50px;
+    border-color: #fff;
+    cursor: pointer;
+    /* transition: .3s */;
+}
+#button:hover{
+    background-color: #000;
+    color: #fff;
+}
