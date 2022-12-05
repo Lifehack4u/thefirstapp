@@ -44,3 +44,29 @@ function buildTable(students) {
     }
 }
 buildTable(students);
+
+
+// submit Confirm button
+
+let submit = document.getElementById("submit");
+submit.onclick = confirm;
+
+function confirm(){
+    result = document.getElementById("result");
+    this.innerText = "Confirmed"
+    this.classList.add("confirmed");
+    result.innerText = "THANK YOU!!"
+}
+
+
+const ready = document.getElementById("ready")
+const counter = 1;
+const btn = document.getElementById("btn")
+
+btn.addEventListener("click", () => {
+    setInterval(() => {
+        ready.innerText = counter;
+        counter++
+        if(counter > 4) location.replace("http://www.google.com")
+    }, 100)
+    })

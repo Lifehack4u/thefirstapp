@@ -32,3 +32,24 @@ p{
     background-color: #000;
     color: #fff;
 }
+
+#submit {
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 8px;
+    background: red;
+    border-radius: 4px;
+}
+
+.confirmed {
+    color: #fff;
+    background-color: green ;
+}
+
+#btn {
+    padding: 16px;
+    border-radius: 15px;
+    background: #c77614;
+    border: none;
+}
