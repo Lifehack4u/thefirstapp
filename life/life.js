@@ -32,13 +32,16 @@ function buildTable(students) {
     let table = document.getElementById("table")
     for(let i = 0; i < students.length; i++){
         let row = `
-        <tr>
-        <td>$(students[i].name}</td>
-        <td>$(students[i].class}</td>
-        <td>$(students[i].grade}</td>
+        <tr> 
+        <td>$(students[i].name)</td>
+        <td>$(students[i].class)</td>
+        <td>$(students[i].grade)</td>
         <tr>
         
-        `
+        
+      ` 
+        
+        
       table.innerHTML += row
 
     }
@@ -67,6 +70,14 @@ btn.addEventListener("click", () => {
     setInterval(() => {
         ready.innerText = counter;
         counter++
-        if(counter > 4) location.replace("http://www.google.com")
+        if(counte > 4) location.replace("https://www.google.com")
     }, 100)
     })
+
+
+let checkbox = document.getElementById('check')
+checkbox.setAttribute('type', 'checked')
+
+function changeText(id) {
+    id.innerHTML = "Here you go!";
+}
