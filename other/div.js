@@ -47,8 +47,9 @@
          close_el.onclick = function(){ console.log(" I clickd....") }; 
          
         
-          /* let close_el = this.todolist;
-          todolist.removeChild(todolist) */
+         /*  let close_el = this.todolist;
+          todolist.removeChild(todolist) 
+           */
       
  
      /** The checkbox */
