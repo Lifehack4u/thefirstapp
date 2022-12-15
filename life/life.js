@@ -19,14 +19,14 @@ let root = document.getElementById('root').innerHTML = '<ul><H3>Programming<h3> 
 
 // display the table 
 
-const students = [
+const students = `[
     {name: "John", class: "High", grade: 90},
     {name: "Chuol", class: "senior", grade: 80},
     {name: "Deng", class: "senior", grade: 70},
     {name: "Hussen", class: "fresman", grade: 60},
     {name: "James", class: "Primary", grade: 56},
     {name: "Ahmed", class: "Primary", grade: 78},
-]
+]`
 
 function buildTable(students) {
     let table = document.getElementById("table")
